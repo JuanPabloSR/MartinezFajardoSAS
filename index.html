@@ -17,8 +17,9 @@
       <link href="lib/owlcarousel/assets/owl.carousel.min.css" rel="stylesheet">
       <!-- Template Stylesheet -->
       <link href="css/style.css" rel="stylesheet">
-      <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/4.1.1/animate.min.css"
-  />
+      <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/4.1.1/animate.min.css"/>
+      <link rel="stylesheet" href="https://unpkg.com/aos@next/dist/aos.css" />
+
    </head>
    <body>
       <!-- Top Bar Start -->
@@ -83,7 +84,7 @@
                   <div class="carousel-img">
                      <img src="img/carousel-1.jpg" alt="Image">
                   </div>
-                  <div class="carousel-text">
+                  <div data-aos="zoom-in" class="carousel-text">
                      <h1>MartinezFajardo Abogados S.A.S</h1>
                      <p>
                         Asesoría y representación legal en derecho penal, laboral, civil, tributario y contratación estatal.
@@ -98,7 +99,7 @@
                   <div class="carousel-img">
                      <img src="img/carousel-2.jpg" alt="Image">
                   </div>
-                  <div class="carousel-text">
+                  <div  class="carousel-text">
                      <h1>Soluciones a la medida</h1>
                      <p>
                         Morbi sagittis turpis id suscipit feugiat. Suspendisse eu augue urna. Morbi sagittis, orci sodales varius fermentum, tortor
@@ -147,8 +148,8 @@
       <!-- Video Modal End -->
       <!-- Fact Start -->
       <div class="fact">
-         <div class="container">
-            <div class="row align-items-center animate__animated animate__fadeInUp">
+         <div data-aos="zoom-in" class="container">
+            <div class="row align-items-center">
                <div class="col-lg-3 col-md-6">
                   <div class="fact-item ">
                      <img src="img/icon-4.png" alt="Icon">
@@ -178,7 +179,7 @@
       </div>
       <!-- Fact Start -->
       <!-- About Start -->
-      <div class="about">
+      <div data-aos="zoom-in-left" class="about">
          <div class="container">
             <div class="row align-items-center aboutAnimation">
                <div class="col-md-6 ">
@@ -193,17 +194,17 @@
                </div>
                <div class="col-md-6">
                   <div class="section-header ">
-                     <p class="animate__animated animate__fadeInUp" >Mas sobre nosotros</p>
-                     <h2 class="animate__animated animate__fadeInUp" >2 Años de experiencia</h2>
+                     <p>Mas sobre nosotros</p>
+                     <h2>2 Años de experiencia</h2>
                   </div>
                   <div class="about-text">
-                     <p class="animate__animated animate__fadeInUp">
+                     <p>
                         Lorem ipsum dolor sit amet, consectetur adipiscing elit. Phasellus nec pretium mi. Curabitur facilisis ornare velit non vulputate. Aliquam metus tortor, auctor id gravida condimentum, viverra quis sem.
                      </p>
-                     <p class="animate__animated animate__fadeInUp">
+                     <p>
                         Lorem ipsum dolor sit amet, consectetur adipiscing elit. Phasellus nec pretium mi. Curabitur facilisis ornare velit non vulputate. Aliquam metus tortor, auctor id gravida condimentum, viverra quis sem. Curabitur non nisl nec nisi scelerisque maximus. Aenean consectetur convallis porttitor. Aliquam interdum at lacus non blandit.
                      </p>
-                     <a class="btn animate__animated animate__fadeInUp " href="">Leer Mas</a>
+                     <a clas href="">Leer Mas</a>
                   </div>
                </div>
             </div>
@@ -211,7 +212,7 @@
       </div>
       <!-- About End -->
       <!-- Service Start -->
-      <div class="service">
+      <div data-aos="zoom-out-up" class="service">
          <div class="container">
             <div class="section-header">
                <p>Nuestros Servicios</p>
@@ -303,7 +304,7 @@
       </div>
       <!-- Service End -->
       <!-- Team Start -->
-      <div class="team">
+      <div data-aos="flip-up" class="team">
          <div class="container">
             <div class="section-header">
                <p>Conozca a nuestros asesores</p>
@@ -383,7 +384,7 @@
       </div>
       <!-- Team End -->
       <!-- Testimonial Start -->
-      <div class="testimonial">
+      <div data-aos="flip-down" class="testimonial">
          <div class="container">
             <div class="section-header">
                <p>Testimonios</p>
@@ -427,7 +428,9 @@
       </div>
       <!-- Testimonial End -->
       <!-- Questions Start -->
-      <div class="about">
+      <div data-aos="fade-right"
+      data-aos-offset="100"
+      data-aos-easing="ease-in-sine" class="about">
          <div class="container">
             <div class="row align-items-center">
                <div class="col-md-6">
@@ -513,7 +516,9 @@
       </div>
       <!-- Questions End -->
       <!-- Blog Start -->
-      <div class="blog">
+      <div data-aos="fade-left"
+      data-aos-offset="100"
+      data-aos-easing="ease-in-sine" class="blog">
          <div class="container">
             <div class="section-header">
                <p>Consulte nuestro Blog</p>
@@ -595,13 +600,13 @@
       <!-- Whatsaapp buttom -->
 
       <!-- Footer Start -->
-      <div class="footer">
-         <div class="container ">
+      <div  class="footer">
+         <div data-aos="fade-left" class="container ">
             <div class="row">
-               <div class="col-lg-7">
+               <div  class="col-lg-7">
                   <div class="row">
                      <div class="col-md-6">
-                        <div class="footer-contact animate__animated animate__fadeInRight">
+                        <div class="footer-contact">
                            <h2>Nuestra Oficina</h2>
                            <p><i class="fa fa-map-marker-alt"></i>Ofic 502, Edificio  GranColombiana, Bucaramanga</p>
                            <p><i class="fa fa-phone-alt"></i>+57 3002778594</p>
@@ -616,7 +621,7 @@
                         </div>
                      </div>
                      <div class="col-md-6">
-                        <div class="footer-link animate__animated animate__fadeInRight">
+                        <div class="footer-link">
                            <h2>Enlaces Rapidos</h2>
                            <a href="">Terminos de uso</a>
                            <a href="">Politica de privacidad</a>
@@ -628,7 +633,7 @@
                   </div>
                </div>
                <div class="col-lg-5">
-                  <div class="footer-newsletter animate__animated animate__fadeInRight">
+                  <div class="footer-newsletter">
                      <h2>Boletin informativo</h2>
                      <p>
                         ¿Quieres estar al pendiente de todas nuestras novedades? Suscribete a nuestro boletin informativo y te informaremos de cada nueva entrada de nuestro blog o noticias relevantes.
@@ -641,12 +646,12 @@
                </div>
             </div>
          </div>
-         <div class="container copyright animate__animated animate__fadeInRight">
+         <div class="container copyright">
             <div class="row">
                <div class="col-md-6">
                   <p>&copy; <a href="#">MartinezFajardo Abogados SAS</a>, Todos los derechos reservados.</p>
                </div>
-               <div class="col-md-6 servicesAnimation animate__animated animate__fadeInRight">
+               <div class="col-md-6 servicesAnimation">
                   <p>Diseñado realizado por <a href="https://www.juanpablosanchezrey.online">Juan Pablo Sánchez Rey</a></p>
                </div>
             </div>
@@ -667,6 +672,9 @@
       <!-- Template Javascript -->
       <script src="js/main.js"></script>
       <script src="https://kit.fontawesome.com/eb496ab1a0.js" crossorigin="anonymous"></script>
-
+      <script src="https://unpkg.com/aos@next/dist/aos.js"></script>
+      <script>
+         AOS.init();
+      </script>
    </body>
 </html>
