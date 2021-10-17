@@ -24,7 +24,8 @@
         }
     });
     
-    
+   
+
     // Dropdown on mouse hover
     $(document).ready(function () {
         function toggleNavbarMethod() {
@@ -82,6 +83,7 @@
         time: 2000
     });
 
+   
 
     // Testimonials carousel
     $(".testimonials-carousel").owlCarousel({
@@ -136,6 +138,13 @@
             }
         }
     });
+
+
+
     
 })(jQuery);
+
+// .............ANIMACIONES...........
+
+
 

@@ -9,10 +9,10 @@ body {
 
 
 h1,
-h2, 
-h3, 
+h2,
+h3,
 h4,
-h5, 
+h5,
 h6 {
     color: #002538;
     font-family: 'Oswald', sans-serif;
@@ -232,16 +232,16 @@ a:focus {
         background: rgba(9, 42, 73, .2)!important;
         z-index: 9;
     }
-    
+
     .navbar.nav-sticky {
         padding: 10px 60px;
         background: #002538 !important;
     }
-    
+
     .page .navbar {
         background: #002538 !important;
     }
-    
+
     .navbar a.nav-link {
         padding: 8px 15px;
         font-size: 14px;
@@ -250,16 +250,16 @@ a:focus {
     }
 }
 
-@media (max-width: 991.98px) {   
+@media (max-width: 991.98px) {
     .navbar {
         padding: 15px;
         background: #002538 !important;
     }
-    
+
     .navbar a.nav-link {
         padding: 5px;
     }
-    
+
     .navbar .dropdown-menu {
         box-shadow: none;
     }
@@ -435,15 +435,15 @@ a:focus {
     .carousel .carousel-text {
         height: calc(100vh - 105px);
     }
-    
+
     .carousel .carousel-text h1 {
         font-size: 35px;
     }
-    
+
     .carousel .carousel-text p {
         font-size: 16px;
     }
-    
+
     .carousel .carousel-text .btn {
         padding: 12px 30px;
         font-size: 15px;
@@ -457,11 +457,11 @@ a:focus {
     .carousel .carousel-text {
         height: calc(100vh - 70px);
     }
-    
+
     .carousel .carousel-text h1 {
         font-size: 30px;
     }
-    
+
     .carousel .carousel-text .btn {
         padding: 10px 25px;
         font-size: 15px;
@@ -476,7 +476,7 @@ a:focus {
     .carousel .carousel-text h1 {
         font-size: 25px;
     }
-    
+
     .carousel .carousel-text .btn {
         padding: 8px 20px;
         font-size: 14px;
@@ -558,12 +558,12 @@ a:focus {
     text-align: center;
     background: #ffffff;
     border: 1px solid transparent;
-    box-shadow: 0 0 30px rgba(0, 0, 0, .1);
+    box-shadow: 0 0 5px #0072AD;
     transition: .3s;
 }
 
 .fact .fact-item:hover {
-    border-color: rgba(0, 0, 0, .1);
+    border-color: #0072AD;
     box-shadow: none;
 }
 
@@ -1528,3 +1528,76 @@ a:focus {
 }
 
 
+/* ......WHATSAAP BOTON................... */
+.btn-wsp{
+    position:fixed;
+    width:60px;
+    height:60px;
+    line-height: 60px;
+    bottom:80px;
+    right:10px;
+    background:#25d36565;
+    color:#002538;
+    border-radius:50px;
+    text-align:center;
+    font-size:35px;
+    box-shadow: 0px 1px 10px rgba(0,0,0,0.3);
+    z-index:100;
+    transition: all 300ms ease;
+}
+.btn-wsp:hover{
+    background: #20ba5a;
+}
+@media only screen and (min-width:320px) and (max-width:768px){
+    .btn-wsp{
+        width:60px;
+        height:60px;
+        line-height: 60px;
+	}
+}
+
+/* ...........EMPRESAS CARD.......................... */
+
+.empresa-item {
+    text-align: center;
+    padding: 10px 50px 30px 0;
+}
+
+/* ...........ZOOM BLOG.......................... */
+.zoom{
+    transition: transform .2s;
+}
+.zoom:hover {
+    transform: scale(1.1); /* (150% zoom - Note: if the zoom is too large, it will go outside of the viewport) */
+  }
+
+  .col-md-6 {
+      padding-bottom: 30px;
+  }
+
+  /* ...........ICONOS.......................... */
+.fa-arrow-circle-left {
+    font-size: 2rem;
+    color: #002538;
+    transition: transform .2s;
+    padding: 5px;
+}
+.fa-arrow-circle-left:hover {
+    transform: scale(1.5); /* (150% zoom - Note: if the zoom is too large, it will go outside of the viewport) */
+  }
+
+
+    /* ...........MAPA.......................... */
+
+ .maps {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+ }
+    
+
+/* .................fact............. */
+:root {
+    --animate-duration: 100s;
+    --animate-delay: 5s;
+  }
