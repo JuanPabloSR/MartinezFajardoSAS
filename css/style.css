@@ -1602,4 +1602,7 @@ a:focus {
     --animate-delay: 5s;
   }
 
- 
+ /* .............logo......... */
+.logohead {
+    height: 30px;
+}
