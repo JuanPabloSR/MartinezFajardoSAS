@@ -1337,7 +1337,7 @@ a:focus {
 .single {
     position: relative;
     width: 100%;
-    padding: 45px 0 15px 0;
+    padding: 0px 0 15px 0;
 }
 
 .single img {
@@ -1606,3 +1606,5 @@ a:focus {
 .logohead {
     height: 30px;
 }
+
+
