@@ -1,16 +1,22 @@
-<?php
-$destino = "juanpablosanchez744@gmail.com";
-$name = $_POST['name'];
-$email = $_POST['email'];
-$subject = $_POST['subject'];
-$message = $_POST['message'];
+<?php  
 
-// Change this email to your //
-$subject = "contacto desde la pagina web";
-$body = "You have received a new message from your website contact form.\n\n"."Here are the details:\n\nName: $name\n\n\nEmail: $email\n\nSubject: $m_subject\n\nMessage: $message";
-$header = "From: $email";
-$header .= "Reply-To: $email";	
+// Llamando a los campos
+$nombre = $_POST['name'];
+$correo = $_POST['email'];
+$asuntos = $_POST['subject'];
+$mensaje = $_POST['message'];
 
-mail($destino, $subject, $body, $header);
+// Datos para el correo
+$destinatario = "juanpablosanchez744@gmail.com";
+$asunto = "Contacto desde nuestra web";
+
+$carta = "De: $nombre \n";
+$carta .= "Correo: $correo \n";
+$carta .= "Telefono: $telefono \n";
+$carta .= "Mensaje: $mensaje";
+
+// Enviando Mensaje
+mail($destinatario, $asunto, $carta);
 header('Location:index.html');
+
 ?>
