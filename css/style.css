@@ -193,6 +193,10 @@ a:focus {
     line-height: 0px;
     font-weight: 200;
     text-transform: uppercase;
+
+}
+.navbar-brand {
+    font-family: 'Roboto', sans-serif;
 }
 
 .navbar .navbar-brand img {
