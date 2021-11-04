@@ -11,6 +11,6 @@ $body = "You have received a new message from your website contact form.\n\n"."H
 $header = "From: $email";
 $header .= "Reply-To: $email";	
 
-$mail($to, $subject, $body, $header)
-  
+$mail($to, $subject, $body, $header);
+header('Location:index.html');
 ?>
