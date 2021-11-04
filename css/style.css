@@ -192,6 +192,9 @@ a:focus {
   text-transform: uppercase;
 }
 
+.navbar-brand {
+  font-family:'Playfair Display', serif; 
+}
 
 .navbar .navbar-brand img {
   max-width: 100%;
