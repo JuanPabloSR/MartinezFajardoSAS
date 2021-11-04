@@ -1,8 +1,8 @@
 <?php
-
+$destino = "juanpablosanchez744@gmail.com";
 $name = $_POST['name'];
 $email = $_POST['email'];
-$m_subject = $_POST['subject'];
+$subject = $_POST['subject'];
 $message = $_POST['message'];
 
 $to = "juanpablosanchez744@gmail.com"; // Change this email to your //
