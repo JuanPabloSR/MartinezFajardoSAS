@@ -2,5 +2,5 @@
 deployment:
   task:
     - export DEPLOYPATH=/home1/martin14/public_html/
-    - /bin/rsyns -av MartínezFajardo Web/ $DEPLOYPATH
+    - /bin/cp index.html $DEPLOYPATH
      
